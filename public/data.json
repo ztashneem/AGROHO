@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1111",
+        "name": "Juddy Doll - Multi Color ",
+        "price" : 432,
+        "img" : "https://static-01.daraz.com.bd/p/00b1aa1632d23edf34b90ccb93cde78d.jpg"
+    },
+    {
+        "id": "2222",
+        "name": "Baby Park Talking Doll ",
+        "price" : 350,
+        "img" : "https://static-01.daraz.com.bd/p/ae0e71ac46faae8633556d0bb737630c.jpg"
+    },
+    {
+        "id": "3333",
+        "name": "Panda putul/Cute Teddy Bear ",
+        "price" : 299,
+        "img" : "https://static-01.daraz.com.bd/p/8043e7910cfe45dfea26111e4bda80fa.jpg"
+    },
+    {
+        "id": "4444",
+        "name": "Woolen Doll Shaped Key Ring",
+        "price" : 699,
+        "img" : "https://static-01.daraz.com.bd/p/0d647616d1599c9a439d4d89f1d33be3.jpg"
+    },
+    {
+        "id": "55555",
+        "name": "Woolen Twin Doll Shaped Key Ring ",
+        "price" : 999,
+        "img" : "https://static-01.daraz.com.bd/p/00966a059def539fcb062c8b58aaa572.jpg"
+    },
+    {
+        "id": "6666",
+        "name": " 16 colors Soft LED Rabbit Lamp Gift",
+        "price" : 750,
+        "img" : "https://static-01.daraz.com.bd/p/1d32f1cf59de995a8e22fffe4c1924be.jpg"
+    },
+    {
+        "id": "7777",
+        "name": "Emoji Smiley Face Spring Doll ",
+        "price" : 550,
+        "img" : "https://static-01.daraz.com.bd/p/5c9c46256aefd24f9f76a9c35689b679.jpg"
+    },
+    {
+        "id": "8888",
+        "name": "Juddy Doll - Multi Color ",
+        "price" : 432,
+        "img" : "https://static-01.daraz.com.bd/p/00b1aa1632d23edf34b90ccb93cde78d.jpg"
+    },
+    {
+        "id": "9999",
+        "name": "Baby Park Talking Doll ",
+        "price" : 350,
+        "img" : "https://static-01.daraz.com.bd/p/ae0e71ac46faae8633556d0bb737630c.jpg"
+    }
+    
+]
