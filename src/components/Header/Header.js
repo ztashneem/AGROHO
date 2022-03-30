@@ -7,8 +7,8 @@ const Header = () => {
         <div>
             <Navbar bg="dark" variant="dark" expand={false}>
                 <Container fluid>
-                    <Navbar.Brand className='fw-bold ps-0 ps-lg-5 text-uppercase ' href="#">
-                        AGROHO 
+                    <Navbar.Brand className='fw-bold ms-lg-5 text-uppercase ' href="#">
+                        The Luxurious
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" />
                     <Navbar.Offcanvas
@@ -17,10 +17,10 @@ const Header = () => {
                         placement="end"
                     >
                         <Offcanvas.Header closeButton>
-                            <Offcanvas.Title id="offcanvasNavbarLabel">AGROHO</Offcanvas.Title>
+                            <Offcanvas.Title id="offcanvasNavbarLabel">The Luxurious</Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
-                            <Nav className="justify-content-end flex-grow-1 pe-0 pe-lg-3">
+                            <Nav className="justify-content-end flex-grow-1 pe-lg-3">
                                 <Nav.Link href="../../App.js">Home</Nav.Link>
                                 <Nav.Link href="../../App.js">Shop</Nav.Link>
                                 <NavDropdown title="Get in Touch" id="offcanvasNavbarDropdown">
@@ -28,7 +28,7 @@ const Header = () => {
                                     <NavDropdown.Item href="../../App.js">About Us</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="../../App.js">
-                                        Feedback
+                                        Something else here
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
@@ -36,7 +36,7 @@ const Header = () => {
                                 <FormControl
                                     type="search"
                                     placeholder="Search"
-                                    className="me-lg-2"
+                                    className="me-2"
                                     aria-label="Search"
                                 />
                                 <Button variant="outline-success">Search</Button>

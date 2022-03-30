@@ -1,14 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Shop from './components/shop/Shop';
-import Header from './components/Header/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/Header/Header';
+import Shop from './Components/Shop/Shop';
+import Question from './Components/Questions/Question';
+import Fotter from './Components/footer/Fotter';
+
+
+
+
+
+
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-     <h1>Hello Agroho</h1>
-     <Shop></Shop>
+      <Shop></Shop>
+      <Question></Question>
+      <Fotter></Fotter>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .product-container{
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
-    grid-gap: 20px;
+    grid-gap: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -18,7 +18,6 @@
         display: grid;
         grid-template-columns: 1fr;
         text-align: center;
-        /* margin-right: 0; */
-        overflow-x: hidden;
+        margin-right: 0;
     }
 }

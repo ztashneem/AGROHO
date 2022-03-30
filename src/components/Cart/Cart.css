@@ -1,0 +1,17 @@
+.cart{
+    position: sticky !important ;
+    top: 0 !important;
+    
+}
+.bg-infos{
+   
+    text-align: center;
+    background-color: rgba(37, 37, 37, 0.801);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+  
+}
+.price{
+    background-color: rgba(158, 150, 150, 0.212);
+    color: rgb(255, 81, 0);
+}

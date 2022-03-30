@@ -22,7 +22,7 @@ const Shop = () => {
     }
     return (
         <div className=' container-fulid  row mt-5'>
-            <div className="col-md-8 col-12 ms-lg-5">
+            <div className="col-md-8 mx-auto ms-lg-5">
                 <div className='product-container'>
 
                     {
@@ -32,7 +32,7 @@ const Shop = () => {
                 </div>
 
             </div>
-            <div className="col-md-3 col-12 mx-auto">
+            <div className="col-md-3 mx-auto">
                 <div className=''>
 
                     <Cart cart={cart}></Cart>
