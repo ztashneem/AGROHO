@@ -2,22 +2,28 @@
 import React from 'react';
 
 import './Product.css';
-import { MdAddShoppingCart } from 'react-icons/md';
+import { BsCartDash } from 'react-icons/bs';
+import { Button, Card } from 'react-bootstrap';
 
 const Product = (props) => {
     // console.log(props.product);
-    const { name, img, price, Description, seller } = props.product;
+    const { name, img, price } = props.product;
     return (
-        <div className='col-12 products ' style={{ height: '45rem' }}>
-            <>
-                <img src={img} alt="" className=' mb-4 ' width={400} height={400} />
-                <h4>{name.slice(0, 30)}</h4>
-                <h4>Price:  $ {price}</h4>
-                <h6>Manufactured:  {seller}</h6>
-                <small className='text-justify'> <code>Description:</code> {Description.slice(0, 120)}...</small>
+        <div className='col-12 products ' >
 
-                <span onClick={() => props.handdleAddRoCart(props.product)} className=' btn btn-outline-dark  button '> Add To Cart <MdAddShoppingCart className='ms-2 fw-bold'></MdAddShoppingCart> </span>
-            </>
+<Card className='border-0'>
+  <Card.Img className='img-fluid mx-auto d-block' style={{width:'250px', height:'250px'}} variant="top" src={img} />
+  <Card.Body>
+    <Card.Title>{name.slice(0, 30)}</Card.Title>
+    <Card.Text>
+    Price:  $ {price}
+    </Card.Text>
+    <Button className='w-100 rounded' onClick={() => props.handdleAddRoCart(props.product)} variant="primary">Add To Cart <BsCartDash className='ms-2 '></BsCartDash> </Button>
+  </Card.Body>
+  
+</Card>
+
+           
 
         </div>
     );

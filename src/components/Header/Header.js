@@ -8,7 +8,7 @@ const Header = () => {
             <Navbar bg="dark" variant="dark" expand={false}>
                 <Container fluid>
                     <Navbar.Brand className='fw-bold ms-lg-5 text-uppercase ' href="#">
-                        The Luxurious
+                        AGROHO
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" />
                     <Navbar.Offcanvas
@@ -17,7 +17,7 @@ const Header = () => {
                         placement="end"
                     >
                         <Offcanvas.Header closeButton>
-                            <Offcanvas.Title id="offcanvasNavbarLabel">The Luxurious</Offcanvas.Title>
+                            <Offcanvas.Title id="offcanvasNavbarLabel">AGROHO</Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-lg-3">

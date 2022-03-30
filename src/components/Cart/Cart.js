@@ -64,7 +64,7 @@ const Cart = (props) => {
         setCarts(cart)
 
     }, [cart])
-    console.log(carts);
+   
     // aleart 
 
     // lenght check 
@@ -90,8 +90,8 @@ const Cart = (props) => {
 
     return (
         <div className='cart'>
-            <h2 className='mb-3'>Selected Items: <span className='text-danger'>{carts.length}</span> </h2>
-            < >{carts.map(products => <h5 key={products.id} className='bg-infos p-3'>{products.name}</h5>)}</>
+            <h2 className='mb-3'>Selected Items: <span className='text-warning'>{carts.length}</span> </h2>
+            < >{carts.map(products => <h5 key={products.id} className='bg-info py-5 px-2 '>{products.name}</h5>)}</>
             <h4 className='p-lg-3 p-1 price'>Total Price: $ {carts.length ? carts.reduce((a, b) => ({ price: a.price + b.price })).price : 0}</h4>
             {
                 carts.length ? (
