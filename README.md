@@ -1,15 +1,15 @@
-# Getting Started with Create React App
+#AGROHO DOLL HOUSE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was Agroho's Doll with [GO TO WEBSITE](https://agroho.netlify.app/).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `AGROHO `
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [www.agroho.netlify.com](https://agroho.netlify.app/) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
